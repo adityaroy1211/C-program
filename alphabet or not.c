@@ -4,8 +4,9 @@
 void main()
 {
 	char c;
-	printf("enter the text");
+	printf("enter the character:");
 	scanf("%s",&c);
+	
 	if((c>='a' && c<='z')  || (c>='A' && c<='Z'))
 	{
 		printf("it is an alphabet",c);
